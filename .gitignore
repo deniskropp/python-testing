@@ -18,3 +18,4 @@ nosetests.xml
 .coverage
 .swp
 tags
+.project_doc_record
