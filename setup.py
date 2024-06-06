@@ -4,15 +4,15 @@
 from setuptools import setup
 
 setup(
-    name='testalchemy',
-    version='0.4',
-    author='Tim Perevezentsev',
-    author_email='riffm2005@gmail.com',
-    url='https://github.com/riffm/testalchemy',
-    description='A set of utility classes for testing code that uses sqlalchemy',
+    name='python-testing',
+    version='0.1',
+    author='Denis Kropp',
+    author_email='dok@directfb1.org',
+    url='https://github.com/deniskropp/python-testing',
+    description='Testing Python',
     license='MIT',
-    install_requires=['sqlalchemy'],
-    py_modules=['testalchemy'],
+    install_requires=[],
+    py_modules=['jobsNqueues'],
     test_suite='tests',
     platforms='Any'
 )
