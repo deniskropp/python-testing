@@ -26,6 +26,12 @@ class Queue:
         """
         return len(self._data) == 0
 
+    def size(self):
+        """
+        Return the number of items in the queue.
+        """
+        return len(self._data)
+
 
 class Job:
     def __init__(self, function, *args, **kwargs):
