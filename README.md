@@ -1,16 +1,18 @@
-jobsNqueues
-===========
+# jobsNqueues
 
 
 ## About
 
 `jobsNqueues` is a python package that provides a simple way to manage and
-execute jobs. It includes a basic job queue and a job scheduler.
+execute jobs. It includes a basic queue and job object.
 
-## Development
+
+## Installation
+
+To install the `jobsNqueues` package, you can use pip:
 
 ```bash
-  pip install -e .
+  pip install jobsNqueues
 ```
 
 ## Usage
@@ -25,7 +27,13 @@ execute jobs. It includes a basic job queue and a job scheduler.
   while (not queue.empty()):
     job = queue.get()
     job.run()
+```
 
+
+## Development
+
+```bash
+  pip install -e .
 ```
 
 
