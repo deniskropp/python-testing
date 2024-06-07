@@ -21,11 +21,11 @@ To install the `jobsNqueues` package, you can use pip:
   from jobsNqueues import Queue, Job
 
   queue = Queue()
-  queue.add(Job(func=print, args=('hello',), kwargs={'end': '\n'}))
-  queue.add(Job(func=print, args=('world',), kwargs={'end': '\n'}))
+  queue.push(Job(print, 'hello', end='\n'))
+  queue.push(Job(print, 'world', end='\n'))
 
   while (not queue.empty()):
-    job = queue.get()
+    job = queue.pop()
     job.run()
 ```
 
