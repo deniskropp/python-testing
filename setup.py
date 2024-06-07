@@ -13,6 +13,6 @@ setup(
     license='MIT',
     install_requires=[],
     py_modules=['jobsNqueues'],
-    test_suite='tests',
+    test_suite='pytest',
     platforms='Any'
 )
