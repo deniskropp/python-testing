@@ -24,6 +24,7 @@ execute jobs. It includes a basic job queue and a job scheduler.
 
   while (not queue.empty()):
     job = queue.get()
+    job.run()
 
 ```
 
